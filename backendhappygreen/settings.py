@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'happygreen.apps.HappygreenConfig',
+    "rest_framework",
 ]
 
 MIDDLEWARE = [
