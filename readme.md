@@ -71,6 +71,7 @@ Il backend supporta le seguenti funzionalità:
    ```bash
    mysql -u root -p
    CREATE DATABASE pwhappygreen_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+   SOURCE pwhappygreen_db.sql;
    exit
    ```
 
@@ -107,6 +108,7 @@ Il backend supporta le seguenti funzionalità:
    ```bash
    mysql -u root -p
    CREATE DATABASE pwhappygreen_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+   SOURCE pwhappygreen_db.sql;
    exit
    ```
 
@@ -143,6 +145,7 @@ Il backend supporta le seguenti funzionalità:
    ```bash
    sudo mysql -u root -p
    CREATE DATABASE pwhappygreen_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+   SOURCE pwhappygreen_db.sql;
    exit
    ```
 
