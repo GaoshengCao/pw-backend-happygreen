@@ -19,6 +19,7 @@
 -- Dump dei dati della tabella pwhappygreen_db.auth_group_permissions: ~0 rows (circa)
 
 -- Dump dei dati della tabella pwhappygreen_db.auth_permission: ~68 rows (circa)
+/*
 INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALUES
 	(1, 'Can add log entry', 1, 'add_logentry'),
 	(2, 'Can change log entry', 1, 'change_logentry'),
@@ -88,10 +89,11 @@ INSERT INTO `auth_permission` (`id`, `name`, `content_type_id`, `codename`) VALU
 	(66, 'Can change membership', 17, 'change_membership'),
 	(67, 'Can delete membership', 17, 'delete_membership'),
 	(68, 'Can view membership', 17, 'view_membership');
-
+*/
 -- Dump dei dati della tabella pwhappygreen_db.django_admin_log: ~0 rows (circa)
 
 -- Dump dei dati della tabella pwhappygreen_db.django_content_type: ~17 rows (circa)
+/*
 INSERT INTO `django_content_type` (`id`, `app_label`, `model`) VALUES
 	(1, 'admin', 'logentry'),
 	(3, 'auth', 'group'),
@@ -110,8 +112,9 @@ INSERT INTO `django_content_type` (`id`, `app_label`, `model`) VALUES
 	(16, 'happygreen', 'userbadge'),
 	(9, 'happygreen', 'wasteclassification'),
 	(5, 'sessions', 'session');
-
+*/
 -- Dump dei dati della tabella pwhappygreen_db.django_migrations: ~19 rows (circa)
+/*
 INSERT INTO `django_migrations` (`id`, `app`, `name`, `applied`) VALUES
 	(1, 'contenttypes', '0001_initial', '2025-05-20 16:57:20.794514'),
 	(2, 'contenttypes', '0002_remove_content_type_name', '2025-05-20 16:57:20.840934'),
@@ -132,7 +135,7 @@ INSERT INTO `django_migrations` (`id`, `app`, `name`, `applied`) VALUES
 	(17, 'admin', '0002_logentry_remove_auto_add', '2025-05-20 16:57:21.737064'),
 	(18, 'admin', '0003_logentry_add_action_flag_choices', '2025-05-20 16:57:21.750382'),
 	(19, 'sessions', '0001_initial', '2025-05-20 16:57:21.772419');
-
+*/
 -- Dump dei dati della tabella pwhappygreen_db.django_session: ~0 rows (circa)
 
 -- Dump dei dati della tabella pwhappygreen_db.happygreen_badge: ~0 rows (circa)
