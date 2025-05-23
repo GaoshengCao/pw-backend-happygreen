@@ -15,13 +15,13 @@ from .serializers import (
 class UserListCreateView(generics.ListCreateAPIView):
     queryset = User.objects.all()
     serializer_class = UserSerializer
-    permission_classes = [IsAuthenticated]
+    #permission_classes = [IsAuthenticated]
 
 class UserDetailView(generics.RetrieveUpdateDestroyAPIView):
     queryset = User.objects.all()
     serializer_class = UserSerializer
     lookup_field = 'pk'
-    permission_classes = [IsAuthenticated]
+    #permission_classes = [IsAuthenticated]
 
 # ----- Group Views -----
 class GroupListCreateView(generics.ListCreateAPIView):

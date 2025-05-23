@@ -58,12 +58,7 @@ class ScannedObject(models.Model):
 
 # Quiz e domande
 class Quiz(models.Model):
-    title = models.CharField(max_length=200)
-    description = models.TextField(blank=True)
-
-class QuizQuestion(models.Model):
-    quiz = models.ForeignKey(Quiz, on_delete=models.CASCADE, related_name='questions')
-    question_text = models.TextField()
+    question_text = models.CharField(max_length=200)
     correct_answer = models.CharField(max_length=200)
     wrong_answers = models.JSONField()  # Lista di risposte errate
 

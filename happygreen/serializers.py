@@ -1,7 +1,7 @@
 from rest_framework import serializers
 from .models import (
     User, Group, Membership, Post, Comment,
-    ScannedObject, Quiz, QuizQuestion, QuizResult,
+    ScannedObject, Quiz, QuizResult,
     Badge, UserBadge, EcoProduct, WasteClassification
 )
 
@@ -60,7 +60,7 @@ class ScannedObjectSerializer(serializers.ModelSerializer):
 class QuizSerializer(serializers.ModelSerializer):
     class Meta:
         model = Quiz
-        fields = ['id', 'title', 'description']
+        fields = ['id', 'question_text', 'correct_answer', 'wrong_answers']
         read_only_fields = ['id']
 
 # ----- Badge Serializer -----
