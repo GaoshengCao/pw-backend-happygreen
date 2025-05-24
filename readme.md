@@ -18,7 +18,7 @@
 - [Tecnologie utilizzate](#-tecnologie-utilizzate)
 - [Team di sviluppo](#-team-di-sviluppo)
 - [Licenza](#-licenza)
-- [NOTA BENE](#⚠️-nota-bene)
+- [NOTA BENE](#-nota-bene)
 
 ## 📝 Descrizione del Progetto
 
