@@ -12,7 +12,7 @@ services:
     volumes:
       - ./db:/docker-entrypoint-initdb.d
   web:
-    image: python:3.9.22
+    image: python
     ports:
       - "8012:8000"
     volumes:
